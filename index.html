@@ -17,44 +17,48 @@
             <h2>Monte seu box e receba em 15 minutos!</h2>
         </header>
         <h3>Primeiro seu prato</h3>
-        <div class="produtos">
+        <div id="frango" class="produtos" onclick="escolherFrango()">
             <img src="./imagens/frango.jpg" alt="Prato de frango com salada e batata de acompanhamentos" class="produto">
             <h4>Frango Yin-yang</h4>
-            <p class="descrição">Um poouco de batata, um pouco de salada.</p>
+            <p class="descrição">Um pouco de batata, um pouco de salada.</p>
             <p class="preco">R$19,90</p>
         </div>
-        <div class="produtos">
+        <div id="carne" class="produtos" onclick="escolherCarne()">
             <img src="./imagens/carne.jpg" alt="Prato com dois pedaços de carne e uma salada de acompanhamento" class="produto">
             <h4>Carne e salada</h4>
             <p class="descrição">Partida ao meio pra parecer mais carne.</p>
             <p class="preco">R$29,90</p>
         </div>
         <h3>Agora sua bebida</h3>
-        <div class="produtos">
+        <div id="coca" class="produtos" onclick="escolherCoca()">
             <img src="./imagens/cocacola.jpg" alt="Latas de coca-cola" class="produto">
             <h4>Coca-cola gelada</h4>
             <p class="descrição">Normal, zero ou stevia. Vai na sorte.</p>
             <p class="preco">R$5,90</p>
         </div>
-        <div class="produtos">
+        <div id="refresco" class="produtos" onclick="escolherRefresco()">
             <img src="./imagens/refresco.jpg" alt="copos com sucos de diferentes sabores" class="produto">
             <h4>Refresco</h4>
             <p class="descrição">Podia ser suco, mas leva água.</p>
             <p class="preco">R$3,90</p>
         </div>
         <h3>Por fim, sua sobremesa</h3>
-        <div class="produtos">
+        <div id="pudim" class="produtos" onclick="escolherPudim()">
             <img src="./imagens/pudim.jpg" alt="Pudim" class="produto">
             <h4>Pudim</h4>
             <p class="descrição">Apenas um lindo e brilhante pudim</p>
             <p class="preco">R$7,90</p>
         </div>
-        <div class="produtos">
+        <div id="sorvete" class="produtos" onclick="escolherSorvete()">
             <img src="./imagens/sorvete.jpg" alt="Três copos com três bolas de sorvete cada" class="produto">
             <h4>Sorvete</h4>
             <p class="descrição">Três bolas de sorvete bem gelado</p>
             <p class="preco">R$6,90</p>
         </div>
+        <div id="botão">
+            <h4>Finalizar pedido</h4>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body> 
 </html>

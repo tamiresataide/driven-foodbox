@@ -1,6 +1,5 @@
 body{
     font-family: 'Quicksand', sans-serif;
-    max-width: 450px;
     margin: auto;
 }
 
@@ -30,6 +29,7 @@ h2{
     padding: 10px;
     margin: 10px;
     margin-bottom: 15px;
+    border: 5px solid white;
 }
 
 h4{
@@ -53,4 +53,18 @@ img.produto{
     display: flex;
     float: right;
     
+}
+
+#botão{
+    background-color: rgb(36, 228, 10);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 20px 15% 5px 15%;
+    padding: 5px;
+}
+
+#botão:hover{
+    background-color: rgb(32, 158, 16);
 }
