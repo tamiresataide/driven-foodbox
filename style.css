@@ -68,3 +68,8 @@ img.produto{
 #botão:hover{
     background-color: rgb(32, 158, 16);
 }
+
+h5{
+    font-size: 12px;
+    text-align: center;
+}
