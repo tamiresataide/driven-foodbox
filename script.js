@@ -39,10 +39,15 @@ function escolherSorvete(){
 }
 
 function finalizarPedido() {
-    let mensagem;
-
-    mensagem =("Olá gostaria de pedir um combo: " + prato + ", " + bebida + " e " + sobremesa);
-    
-    window.open("https://wa.me/+5583993632598?text=" + mensagem);
-
+    if (prato != 'Frango' && prato != 'Carne'){
+        alert('Por favor escolha um prato.');
+    }else if (bebida != 'Coca-cola' && bebida != 'Refresco'){
+        alert('Por favor escolha uma bebida');
+    }else if (sobremesa != 'Pudim' && sobremesa != 'Sorvete'){
+        alert('Por favor escolha uma sobremesa')
+    }else{
+        let mensagem;
+        mensagem =("Olá gostaria de pedir um combo: " + prato + ", " + bebida + " e " + sobremesa);
+        window.open("https://wa.me/+5583993632598?text=" + mensagem);
+    } 
 }
